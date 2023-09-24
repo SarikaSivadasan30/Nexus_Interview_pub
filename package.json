@@ -1,0 +1,16 @@
+{
+  "name": "sauce-demo-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:tests": "yarn cypress open --project ./__test__ --config-file ./cypress/cypress.config.js",
+    "cypress:ci:tests": "yarn cypress run --project ./__test__ --config-file ./cypress/cypress.config.js --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.5.1"
+  }
+}
